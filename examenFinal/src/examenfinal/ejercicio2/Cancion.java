@@ -12,28 +12,28 @@ package examenfinal.ejercicio2;
 public class Cancion implements Musica {
     
     public String String() {
-         System.out.println("Que genero es la canción?");
+         System.out.println("Que genero es la canción? ");
         return null;
     }
 
     public String artista() {
-        System.out.println("Quien canta la cancion?");
-        return null;
+        String arti= "¿Quien canta la cancion ? ";
+        return arti;
     }
 
     public String idioma() {
-       String i= "En que idioma está la canción";
+       String i= "¿En que idioma está la canción? ";
         return i;
     }
 
     public String nombre() {
-        String n= "Como se llama la cancion?";
+        String n= "¿Como se llama la cancion? ";
          return n;
     }
 
     @Override
     public String genero() {
-        String g= "Que genero es la canción?";
+        String g= "¿Que genero es la canción? ";
         return g;
     }
     

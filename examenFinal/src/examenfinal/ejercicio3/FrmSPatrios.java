@@ -149,10 +149,7 @@ public class FrmSPatrios extends javax.swing.JFrame {
         bandera.nombre();
         bandera.QueEs();
         bandera.Fecha();
-        Imprimir.setText(bandera.Inicio());
-        Imprimir.setText(bandera.nombre());
-        Imprimir.setText(bandera.QueEs());
-        Imprimir.setText(bandera.Fecha());
+        Imprimir.setText(bandera.Inicio()+"\n\r"+bandera.nombre()+"\n\r"+bandera.QueEs()+"\n\r"+bandera.Fecha());
     }//GEN-LAST:event_BanderaActionPerformed
 
     private void MonjaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MonjaActionPerformed
@@ -161,10 +158,8 @@ public class FrmSPatrios extends javax.swing.JFrame {
         MJ.nombre();
         MJ.QueEs();
         MJ.Fecha();
-        Imprimir.setText(MJ.Inicio());
-        Imprimir.setText(MJ.nombre());
-        Imprimir.setText(MJ.QueEs());
-        Imprimir.setText(MJ.Fecha());
+        Imprimir.setText(MJ.Inicio()+"\n\r"+MJ.nombre()+"\n\r"+MJ.QueEs()+"\n\r"+MJ.Fecha());
+        
     }//GEN-LAST:event_MonjaActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed

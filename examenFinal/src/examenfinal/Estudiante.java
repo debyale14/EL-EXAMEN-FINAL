@@ -14,9 +14,10 @@ public abstract class Estudiante {
     public String Carrera;
     public int id;
     
-    public void Bienvenido(){
-        System.out.println("Bienvenido a la USPG");
-    }
+    public String Bienvenido(){
+        String b= "Bienvenido a la USPG";
+        return b;
+    }    
     public abstract void Nombre();
     public abstract void Carrera();
     public abstract void id();

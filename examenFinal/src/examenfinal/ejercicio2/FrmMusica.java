@@ -190,19 +190,20 @@ public class FrmMusica extends javax.swing.JFrame {
     }//GEN-LAST:event_nameActionPerformed
 
     private void btnReggaetonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnReggaetonActionPerformed
+       
        Canciones.setText(" ");
-       Canciones.append(name.getText()+", es del artista "+ artista.getText()+" y es de reggaeton");
+       Canciones.append(song.nombre()+name.getText()+"\n\r"+song.artista()+ artista.getText()+"\n\r"+song.genero()+ "Es de reggaeton");
         
     }//GEN-LAST:event_btnReggaetonActionPerformed
 
     private void btnElectronicaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnElectronicaActionPerformed
        Canciones.setText(" ");
-       Canciones.append(name.getText()+", es del artista "+ artista.getText()+" y es de electronica");
+       Canciones.append(song.nombre()+name.getText()+"\n\r"+song.artista()+artista.getText()+"\n\r"+song.genero()+" Es de electronica");
     }//GEN-LAST:event_btnElectronicaActionPerformed
 
     private void btnPopActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPopActionPerformed
        Canciones.setText(" ");
-       Canciones.append(name.getText()+" ,es del artista "+ artista.getText()+" y es de pop");
+       Canciones.append(song.nombre()+name.getText()+"\n\r"+song.artista()+ artista.getText()+"\n\r"+song.genero()+" Es de pop");
     }//GEN-LAST:event_btnPopActionPerformed
 
     private void SalirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SalirActionPerformed
